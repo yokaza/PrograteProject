@@ -1,0 +1,32 @@
+/* Reset */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+	height: 100%;
+	font-family : latoRegular;
+}
+
+body {
+	background-color: #D5CBBE;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* font */
+@font-face {
+	font-family : "latoRegular";
+	src: url("fonts/Lato-Regular.ttf");
+}
+@font-face {
+	font-family : "mateSC";
+	src: url("fonts/MateSC-Regular.ttf");
+}
+
+/* HEADER */
