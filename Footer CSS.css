@@ -1,0 +1,19 @@
+.footer {
+background-color: #8b4513;
+color: #ffa500;
+height: 120px;
+padding: 40px
+}
+
+.footer-logo {
+ float: left;
+ font-size: 40px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+	padding-bottom: 20px;
+}
