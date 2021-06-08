@@ -1,0 +1,13 @@
+@media all and (max-width: 1000px) {
+  .tentang-kami img{
+    width: 50%;
+    height: 90%;
+    opacity: 0.9;
+
+}
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+
+  }
