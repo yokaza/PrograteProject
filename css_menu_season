@@ -1,0 +1,63 @@
+.main-wrapper {
+	height: 500px;
+	padding-bottom: 80px;
+	color: #302F2F;
+	text-align: center;
+}
+
+.heading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #C3B9B3;
+}
+
+.heading h2 {
+	font-weight: normal;
+}
+
+.menu {
+	float: left;
+	width: 25%;
+}
+
+.menu-icon {
+	position: relative;
+}
+
+.menu-icon p {
+	position: absolute;
+	top: 90px;
+	width: 100%;
+	color: white;
+}
+
+.txt-contents {
+	width: 80%;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 15px;
+	color: #302F2F;
+}
+
+.message {
+	background-color: #C3B9B3;
+	padding: 15px 40px;
+	cursor: pointer;
+	box-shadow: 0px 7px #E5E2DE;
+}
+
+.message:active {
+	box-shadow: none;
+	position: relative;
+	top: 7px;
+}
+
+.heading h3 {
+	font-weight: normal;
+}
+
+.message-wrapper {
+	border-bottom: 1px solid #302F2F;
+	padding-bottom: 80px;
+	text-align: center;
+}

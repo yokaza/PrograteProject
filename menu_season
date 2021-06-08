@@ -1,0 +1,39 @@
+<div class="main-wrapper">
+	<div class="container">
+		<div class="heading">
+			<h2>OUR MENU SEASON IS UP!</h2>
+		</div>
+		<div class="menus">
+			<div class="menu">
+				<div class="menu-icon">
+					<img src="images-09">
+					<p>FREE COFFEE IS A TAP AWAY</p>
+				</div>
+				<p class="txt-contents">Join now to start earning Rewards.*</p>
+			</div>
+			<div class="menu">
+				<div class="menu-icon">
+					<img src="images-07">
+					<p>REFRESHINGLY RADIANT</p>
+				</div>
+				<p class="txt-contents">Explore thirst-quenching Starbucks Refreshers® beverages: Mango Dragonfruit, Strawberry Açaí and Kiwi Starfruit.</p>
+			</div>
+			<div class="menu">
+				<div class="menu-icon">
+					<img src="images-08">
+					<p>NITRO COLD BREW</p>
+				</div>
+				<p class="txt-contents">Recharge with cold, lush, velvety-smooth coffee—served with or without house-made sweet cream.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="message-wrapper">
+	<div class="container">
+		<div class="heading">
+			<h2>Freshly brewed. Top notch taste.</h2>
+			<h3>Can't stand the thirst anymore?</h3>
+		</div>
+		<span class="btn message">I want my Coffee!</span>
+	</div>
+</div>
