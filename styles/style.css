@@ -22,11 +22,106 @@ body {
 /* font */
 @font-face {
 	font-family : "latoRegular";
-	src: url("fonts/Lato-Regular.ttf");
+	src: url("../fonts/Lato-Regular.ttf");
 }
 @font-face {
-	font-family : "mateSC";
-	src: url("fonts/MateSC-Regular.ttf");
+	font-family : "unicaOne";
+	src: url("../fonts/UnicaOne-Regular.ttf");
 }
 
 /* HEADER */
+
+
+/* Menu */
+.content-menu-wrapper {
+	background-color : #C3B9B3;
+	
+	padding: 15px;
+	margin: 0 auto;
+	
+	text-align: center;
+	color: #302f2f;
+}
+
+.content-menu-container {
+	display: inline-block;
+}
+
+.content-menu-image-wrapper {
+	width: 350px;
+	margin: 15px;
+	float: left;
+}
+
+.content-image {
+	padding: 25px;
+	width: 350px;
+}
+
+.content-image img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.menu-wrapper {
+	width: 800px;
+	height: 1062px;
+	background-color: #EEEDE8;
+	
+	margin: 10px;
+	
+	float: left;
+	position: relative;
+}
+
+.menu-wrapper h3 {
+	font-family: unicaOne;
+	font-weight: 100;
+	font-size: 40px;
+}
+
+.menu-wrapper li{
+	list-style: none;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.menu-container {
+	width: 700px;
+	text-align: left;
+	
+	margin: 17px 40px 0;
+	padding: 20px 20px 5px 20px;
+}
+
+.item-list {
+	margin: 20px 40px;
+	overflow: auto;
+}
+
+.item-list-prices {
+	float: right;
+}
+
+.item-list-names {
+	float: left;
+}
+
+.menu-overlay {
+	font-family: unicaOne;
+	font-size: 90px;
+	color: #C3B9B3;
+	position: absolute;
+}
+.one {
+	transform: rotate(270deg);
+	top: 60px;
+	right: -80px;
+}
+
+.two {
+	transform: rotate(90deg);
+	bottom: 60px;
+	left: -80px;
+}
