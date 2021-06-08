@@ -157,6 +157,24 @@ footer {
 	height: 30px;
 }
 
+.ig:hover {
+	content: url('../images/icon/Instagram.png');
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.fb:hover {
+	content: url('../images/icon/Facebook.png');
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.tw:hover {
+	content: url('../images/icon/Twitter.png');
+	background-color: #fff;
+	border-radius: 5px;
+}
+
 .footer-list {
 	font-size: 25px;
 	float: right;
@@ -180,6 +198,12 @@ footer {
 	list-style: none;
 	margin-top: 30px;
 	font-size: 20px;
+}
+
+.footer-list li:hover {
+	border-bottom: 2px solid #fff;
+	cursor: pointer;
+	text-align: right;
 }
 
 .footer-info img {
