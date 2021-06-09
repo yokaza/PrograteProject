@@ -212,6 +212,80 @@ header {
 	left: 46vw;
 }
 
+/*Johan  Season-Menu*/
+
+.season-wrapper {
+	width: 100%;
+	
+	background-color: #D5CBBE;
+	text-align: center;
+	
+	margin: 0 auto;
+	padding: 1vw;
+}
+
+.season-container {
+	width: 97vw;
+	height: 100%;
+	
+	position: relative;
+	
+	overflow: hidden;
+}
+
+.season-container img{
+    width: 50vw;
+	position: absolute;
+	top: 3vw;
+	left: 46vw;
+	z-index: 10;
+	border-radius: 0.5vw;
+	box-shadow: 5px 5px 5px grey;
+	
+}
+
+.season-text-wrapper {
+	background-color: #FDFDFD;
+	width: 80vw;
+	
+	margin: 8vw 15vw 5vw 2vw;
+	padding: 0 0 2vw 0;
+	
+	top: 8vw;
+	left: 15vw;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.season-text-container {
+	width: 40vw;
+	
+	margin: 0 30vw 0 2vw;
+	padding-top: 3vw;
+	
+	text-align: left;
+}
+
+.season-text-container p {
+	font-size: 2vw;
+	color: #302f2f;
+	
+	font-weight: 100;
+}
+
+.season-text-wrapper h1 {
+	color: #E5AB23;
+	font-family: unicaOne;
+	font-weight: 100;
+	font-size: 6vw;
+	text-shadow: 0 1px 2px grey;
+	position: absolute;
+	
+	
+	top: 4vw;
+	left: 5vw;
+}
+
+/*Johan  Season-Menu-End*/
 .tentang-kami{
     display:flex;
     flex-wrap: wrap;

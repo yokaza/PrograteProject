@@ -97,6 +97,31 @@
 		left: 10vw;
 		transition: 1s;
 	}
+		/*Johan  Menu Season */ 
+	.season-text-wrapper {
+		margin: 8vw auto;
+	}
+	
+	.season-text-wrapper h1 {
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+	.season-text-container {
+		margin: 0 0 0 15vw;
+		width: 63vw;
+	}
+
+	.season-container img{
+		top: 8vw;
+		left: -30vw;
+	}
+	.season-container img:hover{
+		top: 8vw;
+		left: 10vw;
+		transition: 1s;
+	}
+
+
 }
 
 /* Untuk Smartphone */
@@ -132,16 +157,22 @@
 	.text-container p{
 		font-size: 3vw;
 	}
-	.about-container img{
-		top: 8vw;
-		left: -30vw;
-		z-index: -1;
+/* Johan Menu Season */ 
+	.season-text-wrapper h1 {
+		left: 50%;
+		transform: translate(-50%, 0);
+		font-size: 8vw;
 	}
-	.about-container img:hover{
-		top: 8vw;
-		left: 10vw;
-		transition: 1s;
+	.season-text-container {
+		margin: 0 0 0 2vw;
+		padding: 5vw;
+		width: 76vw;
 	}
+	.season-text-container p{
+		font-size: 3vw;
+	}
+
+
 
 	.menu {
 		display: inline;
