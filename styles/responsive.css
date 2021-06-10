@@ -172,7 +172,16 @@
 		font-size: 3vw;
 	}
 
-
+	.about-container img{
+		top: 8vw;
+		left: -30vw;
+		z-index: -1;
+	}
+	.season-container img{
+		top: 8vw;
+		left: -30vw;
+		z-index: -1;
+	}
 
 	.menu {
 		display: inline;
